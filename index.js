@@ -15,6 +15,10 @@ app.get("/", function (request, response) {
     response.sendFile('/public/index.html', {root: __dirname});
 });
 
+app.get("/public/stylesheets/style.css", function (req, resp) {
+    resp.sendFile('/public/stylesheets/style.css', {root: __dirname});
+});
+
 function openDrawerMenu(){
   var x = document.getElementById("mainNavBar");
   if (x.className === "navBar"){
