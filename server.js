@@ -13,4 +13,9 @@ app.get("/public/imgs/me.jpg", function (req, resp) {
     resp.sendFile('/public/imgs/me.jpg', {root: __dirname});
 });
 
+app.get("/public/imgs/resume.pdf", function (req, resp) {
+    resp.sendFile('/public/imgs/resume.pdf', {root: __dirname});
+});
+
+
 app.listen(process.env.PORT || 8888);
