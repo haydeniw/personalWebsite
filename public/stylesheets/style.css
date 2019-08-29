@@ -4,9 +4,19 @@ html, body {
   justify-content: center;
   height: 100%;
   margin: 0px;
-  padding: 0px;
+  padding: 50px;
   
   font-family: 'Open Sans', sans-serif;
+}
+
+.info{
+  padding: 0px;
+  color: #363430;
+}
+
+.subtitle{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
 }
 
 .name {
@@ -28,6 +38,7 @@ html, body {
 .social-links a {
   text-decoration: none;
   padding: 4px;
+  color: #0367A6;
 }
 
 .social-links a:hover {
